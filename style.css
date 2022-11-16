@@ -1,0 +1,19 @@
+body::before{
+    display: block;
+    background-color: #212529;
+    content: '';
+    height: 70px;
+}
+@media(min-width:768px) {
+    .news-input{
+        width: 70%;
+    }
+}
+
+.nv-itm:hover{
+    border-bottom: 2px solid #0DCAF0;
+}
+.accordion-button {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
